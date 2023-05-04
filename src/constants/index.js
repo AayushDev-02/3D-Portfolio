@@ -15,14 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    nextjs
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +39,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "MERN Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "NEXT Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AWS Cloud Practitioner",
       icon: creator,
     },
   ];
@@ -116,55 +113,53 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Tailwind CSS",
+      company_name: "Web Design Clones",
+      icon: tailwind,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Build the clones for popular websites and made some unique designs while learning Tailwind CSS",
+        "Facebook UI Clone, Microsoft UI Clone",
+        "IOS Lock Screen Page Web Design",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "JavaScript",
+      company_name: "Functioning Projects",
+      icon: javascript,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing basic projects to understand the working and uses of JS",
+        "Did projects like: Netflix Clone, 2D Fighter game, Web music player, etc.",
+        "Did a detailed project - Sorting Visalizer",
       ],
     },
     {
-      title: "Web Developer",
+      title: "React JS",
       company_name: "Shopify",
-      icon: shopify,
+      icon: reactjs,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Did complex projects like Notebook App, News App, ETC.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "NEXT JS",
       company_name: "Meta",
-      icon: meta,
+      icon: nextjs,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using next js and other related technologies.",
+        "Build My Personal Blog",
+        "Open AI Chatbot Application",
+        "Web Based Weather Dashboard Application (Ongoing)",
       ],
     },
   ];
