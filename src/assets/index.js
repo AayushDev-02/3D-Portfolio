@@ -32,6 +32,9 @@ import tripguide from "./tripguide.png";
 import openai from "./projects/openai.png"
 import blog from "./projects/blog.png"
 import notebook from "./projects/notebook.png"
+import news from "./projects/news.png"
+import sorting from "./projects/sorting.png"
+import ios from "./projects/ios.png"
 
 export {
   logo,
@@ -65,5 +68,8 @@ export {
   nextjs,
   openai,
   blog,
-  notebook
+  notebook,
+  news,
+  sorting,
+  ios,
 };

@@ -22,7 +22,10 @@ import {
     nextjs,
     openai,
     blog,
-    notebook
+    notebook,
+    news,
+    sorting,
+    ios,
   } from "../assets";
   
   export const navLinks = [
@@ -170,26 +173,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "I thought it was impossible to make a website as beautiful as our product, but Aayush proved me wrong.",
+      name: "Amit Yadav",
+      designation: "Team Member",
+      company: "Project Exhibition I",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "I've never met a web developer who truly cares about user experience' like he does.",
+      name: "Mitesh Sharma",
+      designation: "Team Member",
+      company: "Project Exhibition II",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "After Aayush optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Dakshal Dalsania",
+      designation: "Dev",
+      company: "Jalso 2.0",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -211,6 +214,10 @@ import {
         {
           name: "tailwind",
           color: "pink-text-gradient",
+        },
+        {
+          name: "openai",
+          color: "orange-text-gradient",
         },
       ],
       image: openai,
@@ -281,8 +288,46 @@ import {
         },
         
       ],
-      image: notebook,
+      image: news,
       source_code_link: "https://github.com/AayushDev-02/News-App---React",
+    },
+    {
+      name: "Sorting Visualizer",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "algo",
+          color: "green-text-gradient",
+        },
+        
+        
+      ],
+      image: sorting,
+      source_code_link: "https://github.com/AayushDev-02/Sorting-Visualizer-React",
+    },
+    {
+      name: "IOS Lock Screen",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "Tailwind",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "green-text-gradient",
+        },
+        
+        
+      ],
+      image: ios,
+      source_code_link: "https://github.com/AayushDev-02/iOS-16-Lock-Screen-UI-Tailwind-CSS-",
     },
   ];
   
