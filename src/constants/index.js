@@ -22,6 +22,7 @@ import {
     nextjs,
     openai,
     blog,
+    notebook
   } from "../assets";
   
   export const navLinks = [
@@ -237,25 +238,51 @@ import {
       source_code_link: "https://github.com/AayushDev-02/NextJS-Blog",
     },
     {
-      name: "Trip Guide",
+      name: "Notebook App",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MERN",
           color: "pink-text-gradient",
         },
+        {
+          name: "tailwind",
+          color: "orange-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: notebook,
+      source_code_link: "https://github.com/AayushDev-02/Notebook-App-React",
+    },
+    {
+      name: "News App",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "news api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ui/ux",
+          color: "pink-text-gradient",
+        },
+        
+      ],
+      image: notebook,
+      source_code_link: "https://github.com/AayushDev-02/News-App---React",
     },
   ];
   

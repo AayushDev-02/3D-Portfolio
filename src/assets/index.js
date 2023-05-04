@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import openai from "./projects/openai.png"
 import blog from "./projects/blog.png"
+import notebook from "./projects/notebook.png"
 
 export {
   logo,
@@ -64,4 +65,5 @@ export {
   nextjs,
   openai,
   blog,
+  notebook
 };
