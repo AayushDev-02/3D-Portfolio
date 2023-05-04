@@ -29,6 +29,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import openai from "./projects/openai.png"
+import blog from "./projects/blog.png"
 
 export {
   logo,
@@ -59,5 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  nextjs
+  nextjs,
+  openai,
+  blog,
 };

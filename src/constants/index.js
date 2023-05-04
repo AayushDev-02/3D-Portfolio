@@ -19,7 +19,9 @@ import {
     jobit,
     tripguide,
     threejs,
-    nextjs
+    nextjs,
+    openai,
+    blog,
   } from "../assets";
   
   export const navLinks = [
@@ -158,7 +160,7 @@ import {
       points: [
         "Developing and maintaining web applications using next js and other related technologies.",
         "Build My Personal Blog",
-        "Open AI Chatbot Application",
+        "Open AI Chat Application",
         "Web Based Weather Dashboard Application (Ongoing)",
       ],
     },
@@ -193,16 +195,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Open AI Chat ",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "next",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
@@ -210,29 +212,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: openai,
+      source_code_link: "https://github.com/AayushDev-02/OpenAI-messenger",
     },
     {
-      name: "Job IT",
+      name: "Personal Blog",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "next",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "sanity",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: blog,
+      source_code_link: "https://github.com/AayushDev-02/NextJS-Blog",
     },
     {
       name: "Trip Guide",
