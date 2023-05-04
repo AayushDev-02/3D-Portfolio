@@ -3,12 +3,12 @@ import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai"
 import { IoMdSchool } from "react-icons/io"
 function Footer() {
     return (
-        <div className='px-20 py-10 flex justify-between bg-[#100d25] mt-40 rounded-t-3xl'>
+        <div className='px-20 py-10 flex flex-col space-y-10 sm:space-y-0 sm:flex-row justify-between bg-[#100d25] mt-40 rounded-t-3xl'>
             <div className='flex space-x-10'>
                 <img className='h-36 w-36 rounded-full p-2 border-[3px] border-[#915eff]' src="./aayush.jpg" alt="pp" />
                 <div className='flex flex-col justify-center space-y-2'>
-                    <h1 className='text-4xl font-extrabold text-[#915eff]'>Aayush Yadav</h1>
-                    <p className='font-light text-[#aaa6c3]'>Jaipur, Rajasthan</p>
+                    <h1 className='text-xl sm:text-4xl font-extrabold text-[#915eff]'>Aayush Yadav</h1>
+                    <p className='text-xs sm:text-base font-light text-[#aaa6c3]'>Jaipur, Rajasthan</p>
                 </div>
 
             </div>
